@@ -45,3 +45,15 @@
 #         print(c)
 #         b = a
 #         a = c
+
+lista = [1, 'pedro', True, [], 4.3, {}]
+print(type(lista))
+for elem in lista:
+    elem = 1
+    # print(elem, type(elem))
+print(lista)
+
+for i in range(len(lista)):
+    lista[i] = 1
+    # print(lista[i], type(lista[i]))
+print()
