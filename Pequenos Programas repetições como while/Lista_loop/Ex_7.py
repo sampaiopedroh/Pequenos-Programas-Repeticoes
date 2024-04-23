@@ -9,15 +9,10 @@
 #     print(f'{num} X {qnt} = {cal}')
 
 # Todas
-qnt = 0
-num = 0
-while qnt <= 10:
-    qnt += 1
-    qntx = 0
+tab = 1
+while tab <= 10:
+    num = 1
     while num <= 10:
-        qntx += 1
-        cal = num * qntx
-        print(f'{num} X {qntx} = {cal}')
-        if qntx == 10:
-            break
-    num += 1
+        print(f'{tab} X {num} = {num * tab}')
+        num += 1
+    tab += 1
